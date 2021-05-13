@@ -1,0 +1,33 @@
+{
+  "name": "auth0-rs256-verification",
+  "version": "1.0.0",
+  "description": "Demonstrates how use Auth0's JWKS endpoint to verify an RS256 signed JWT and scope.",
+  "main": "dist",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -w src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auth0-samples/auth0-node-jwks-rs256.git"
+  },
+  "keywords": [
+    "Auth0",
+    "RS256",
+    "Resource",
+    "Server",
+    "Authorization",
+    "JWKS",
+    "JWK"
+  ],
+  "author": "Shawn G. Meyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/auth0-samples/auth0-node-jwks-rs256/issues"
+  },
+  "homepage": "https://github.com/auth0-samples/auth0-node-jwks-rs256#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jose": "^3.11.5"
+  }
+}
